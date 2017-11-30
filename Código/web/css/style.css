@@ -29,9 +29,12 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 
+.clear {
+	background-color: #000000;
+}
 
 body {
-	font-family: 'Amatic SC', cursive;	font-size: 100%;
+	font-family: 'Amatic SC', cursive;
 	background: #ffffff;
 }
 .wrap{
@@ -39,6 +42,8 @@ body {
 	width:80%;
 }
 /* start header */
+
+
 .header_bg{
 	background: #000000;
 }
@@ -273,7 +278,9 @@ body {
 /* start main */
 .main_bg{
 	background-image:url(https://i.pinimg.com/736x/66/53/b8/6653b80bd382282e4fbcdf14da6fc91d--tatoo.jpg);
-}
+	background-size: 200%;
+	height:736px;
+	}
 
 .main {
 	padding: 2%;
@@ -321,8 +328,10 @@ body {
 .images_1_of_3  p  {
 	color: #000000;
 	line-height: 1.8em;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1em;
+	font-family: 'Arial', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	background-color: #000000;
 }
 /* start top_mid_bg */
 .top_grid_bg{
@@ -1300,7 +1309,7 @@ p.para{
 		background: url('../images/search1_h.png') no-repeat 4px 12px;
 	}
 	.images_1_of_3 h3 {
-		font-size: 1.5em;
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width: 800px) {
@@ -1317,7 +1326,7 @@ p.para{
 		display:block;
 	}
 	.footer_top h2 {
-		font-size: 2em;
+		font-size: 20px;
 	}
 	.span1_of_4 {
 		float: left;
@@ -1503,13 +1512,33 @@ p.para{
 }
 
 .historico {
-	font-size: 28px;
+	font-size: 35px;
 	text-align: center;
-	margin-top:5px;
-	background-image:url(https://i.pinimg.com/736x/66/53/b8/6653b80bd382282e4fbcdf14da6fc91d--tatoo.jpg);
-
+	padding-top:15px;
+	height: 665.94px;
+	background-color: #000000;
 }
 
-.texto1 {
-    font-color:#ff640a;
+.sobre {
+	font-size: 35px;
+	text-align: center;
+	padding-top:15px;
+	height: 665.94px;
+	background-color: #000000;
+}
+
+.texto_sobre {
+	padding-left: 15px;
+	padding-right:15px;
+	padding-top: 20px;
+	font-size:25px;
+	text-align: justify;
+}
+
+.perfil {
+	font-size: 35px;
+	text-align: center;
+	padding-top:15px;
+	height: 665.94px;
+	background-color: #000000;
 }
