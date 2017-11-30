@@ -1,0 +1,11 @@
+* {
+	font-family: 'Yantramanav', sans-serif;
+	margin: 0px;
+}
+
+.bottom {
+	position: bottom;
+	display:inline-block;
+	width: 160px;
+	border-left:20px;
+}
