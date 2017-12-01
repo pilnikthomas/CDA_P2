@@ -1533,6 +1533,7 @@ p.para{
 	padding-top: 20px;
 	font-size:25px;
 	text-align: justify;
+	font-weight: 900;
 }
 
 .perfil {
@@ -1541,4 +1542,91 @@ p.para{
 	padding-top:15px;
 	height: 665.94px;
 	background-color: #000000;
+}
+
+.nome {
+	font-size:85px;
+	text-align:center;
+	margin-top: -20px;
+}
+
+.voluntário {
+	font-size: 25px;
+	margin-top: -10px;
+	font-weight: 900;
+}
+
+.numero {
+	margin-left: 50px;
+	text-align:left;
+	font-size:85px;
+}
+
+.conversas {
+	margin-left: 40px;
+	margin-top: -10px;
+	text-align:left;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.numero_pontos {
+	margin-right: 50px;
+	text-align: right;
+	font-size: 85px;
+	margin-top: -128px;
+}
+
+.pontos {
+	margin-right: 62px;
+	margin-top: -10px;
+	text-align:right;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.numero_voluntarios {
+	text-align: center;
+	font-size: 85px;
+}
+
+.voluntarios {
+	margin-top: -10px;
+	text-align:center;
+	font-size:25px;
+	font-weight: 900;
+}
+
+.ligacao{
+	font-weight: 900;
+	font-size: 27.5px;
+	padding-left: 15px;
+	padding-top: 15px;
+	border-bottom-style:10px;
+}
+
+.texto_principal {
+	float:left;
+	text-align: left;
+	display:inline-block;
+	text-decoration: none;
+	padding-right: 65px;
+}
+
+.texto_principal_esquerda {
+	padding-right: -70px;
+}
+
+.duracao {
+	font-weight: 900;
+	font-size: 27.5px;
+	float: left;
+	padding-left: 15px;
+	padding-top: -10px;
+}
+
+hr {
+	color:#FFFFFF;
+	margin-top: -3px;
+	marker-bottom:-10px;
 }
