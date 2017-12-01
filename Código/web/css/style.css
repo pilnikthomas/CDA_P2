@@ -1630,3 +1630,20 @@ hr {
 	margin-top: -3px;
 	marker-bottom:-10px;
 }
+
+.ligacao_morador {
+	background: url(https://st2.depositphotos.com/3224051/9271/i/950/depositphotos_92710266-stock-photo-colorful-psychedelic-art-abstraction-magic.jpg);
+	background-size:150%;
+	height:1024px;
+}
+
+.ligar {
+	font-weight: 900px;
+	font-size: 250px;
+	color:#FFF202;
+	background-color: #526826;
+	display:inline-block;
+	margin-top: 350px;
+	margin-left: 190px;
+	border-radius:30px;
+}
